@@ -1,0 +1,24 @@
+{
+  "name": "twister",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "controlkit": "^0.1.9",
+    "parcel-bundler": "1.x",
+    "three": "^0.112.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "express": "^4.17.1",
+    "parcel-plugin-wasm.rs": "^1.2.15"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf .cache dist node_modules",
+    "serve": "node serve.js"
+  }
+}
