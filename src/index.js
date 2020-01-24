@@ -43,8 +43,6 @@ panel.addButton('bench', () => {
 		return;
 	}
 
-
-
 	const jsTime = bench(jsDeformer);
 	const wasmTime = bench(wasmDeformer);
 
