@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "controlkit": "^0.1.9",
-    "three": "^0.112.1"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
